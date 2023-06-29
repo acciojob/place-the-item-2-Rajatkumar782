@@ -5,23 +5,23 @@ padding: 0px;
 }
  
 .holder{
-    display : flex;
-    justify-content: center;
-    flex-wrap: wrap;   
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	
 }
- 
- .holder .item {
-   height : 100px;
-   width:16%;
-   background-color: green; 
-}
- 
+ .holder .item{
+	width:16%;
+	height:100px;
+	background-color:green;
+	font-size:40px;
+ }
 .item1{
-    background-color: red !important ; 
-    order:10;
+	background-color:red !important;
+	order:10;
 }
- 
- .item2{
-    background-color: blue !important;
-    order:11;
-} 
+.item2{
+	background-color:blue !important;
+	order:11
+	
+}
